@@ -1,0 +1,13 @@
+{
+  "name": "MapIA — Priorización vial auditable",
+  "short_name": "MapIA",
+  "description": "Mapa y captura de evidencia para priorizar intervenciones viales.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfcfa",
+  "theme_color": "#176b45",
+  "lang": "es-PE",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

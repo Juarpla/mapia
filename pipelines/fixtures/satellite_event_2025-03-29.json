@@ -1,0 +1,12 @@
+{
+  "candidate_type": "inundacion",
+  "sensor": "Sentinel-2 L2A + Sentinel-1 IW GRD",
+  "acquired_at": "2025-03-29T15:24:00Z",
+  "baseline_at": "2025-03-09T15:24:00Z",
+  "cloud_cover": 27.4,
+  "radar_change_confirmed": true,
+  "baseline_corridor": [0.11, 0.13, 0.1, 0.14, 0.12, 0.11],
+  "current_corridor": [0.34, 0.39, 0.28, 0.41, 0.36, 0.31],
+  "validation_area": "Trujillo y Víctor Larco Herrera",
+  "note": "Fixture experimental: no representa una detección oficial ni una obra autorizada."
+}
