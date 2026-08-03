@@ -172,7 +172,7 @@ El repositorio está preparado para Sites mediante Vinext, D1 y R2:
 pnpm build
 ```
 
-Para Vercel puede ejecutarse la compilación estándar de Next.js con `pnpm exec next build`; el adaptador D1/R2 no participa si se configura Supabase.
+Para Vercel, `vercel.json` selecciona automáticamente la compilación estándar de Next.js mediante `pnpm run build:vercel`. El adaptador D1/R2 queda desactivado en ese entorno; configure Supabase para la persistencia de producción.
 
 ## 🔐 Roles, privacidad y publicación
 
