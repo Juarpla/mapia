@@ -1,0 +1,1723 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "OpenStreetMap contributors",
+    "license": "ODbL 1.0",
+    "sourceUrl": "https://www.openstreetmap.org/copyright",
+    "osmDataTimestamp": "2026-08-03T18:46:36Z",
+    "extractionArea": "Víctor Larco Herrera y entorno inmediato",
+    "districtRelationId": 1968062,
+    "ubigeo": "130111",
+    "geometryRule": "Ejes OSM recortados a un máximo aproximado de 190 m"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "vlh-osm-001",
+      "properties": {
+        "name": "Avenida Víctor Larco Herrera",
+        "osmWayId": 28765111,
+        "chunkIndex": 0,
+        "highway": "secondary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 106.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0556964,
+            -8.1442832
+          ],
+          [
+            -79.0553336,
+            -8.143861
+          ],
+          [
+            -79.0550796,
+            -8.1435473
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-002",
+      "properties": {
+        "name": "Avenida Huamán",
+        "osmWayId": 87325369,
+        "chunkIndex": 0,
+        "highway": "primary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0430026,
+            -8.1357117
+          ],
+          [
+            -79.043409,
+            -8.1355583
+          ],
+          [
+            -79.0439274,
+            -8.1352875
+          ],
+          [
+            -79.0440918,
+            -8.1352013
+          ],
+          [
+            -79.0443017,
+            -8.1351041
+          ],
+          [
+            -79.0445607,
+            -8.1349811
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-003",
+      "properties": {
+        "name": "Avenida Fátima",
+        "osmWayId": 94620449,
+        "chunkIndex": 0,
+        "highway": "secondary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0370644,
+            -8.129537
+          ],
+          [
+            -79.0362072,
+            -8.1298213
+          ],
+          [
+            -79.0357446,
+            -8.1299931
+          ],
+          [
+            -79.0355195,
+            -8.1301143
+          ],
+          [
+            -79.0354654,
+            -8.1301609
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-004",
+      "properties": {
+        "name": "Avenida El Golf",
+        "osmWayId": 94613384,
+        "chunkIndex": 0,
+        "highway": "secondary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0365304,
+            -8.1351735
+          ],
+          [
+            -79.0363692,
+            -8.1353404
+          ],
+          [
+            -79.0359383,
+            -8.1357865
+          ],
+          [
+            -79.0358892,
+            -8.135836
+          ],
+          [
+            -79.0355826,
+            -8.1361453
+          ],
+          [
+            -79.0353291,
+            -8.1364005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-005",
+      "properties": {
+        "name": "Avenida Prolongación César Vallejo",
+        "osmWayId": 28765281,
+        "chunkIndex": 0,
+        "highway": "secondary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 66.9
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0376807,
+            -8.1375746
+          ],
+          [
+            -79.0375855,
+            -8.1374346
+          ],
+          [
+            -79.0375024,
+            -8.1372668
+          ],
+          [
+            -79.0374407,
+            -8.1370281
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-006",
+      "properties": {
+        "name": "Avenida Juan Pablo II",
+        "osmWayId": 94622306,
+        "chunkIndex": 0,
+        "highway": "secondary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0531214,
+            -8.1342863
+          ],
+          [
+            -79.0538618,
+            -8.1351049
+          ],
+          [
+            -79.0541711,
+            -8.135461
+          ],
+          [
+            -79.054264,
+            -8.135567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-007",
+      "properties": {
+        "name": "Avenida Manuel Seoane",
+        "osmWayId": 94620958,
+        "chunkIndex": 0,
+        "highway": "tertiary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0492352,
+            -8.1434523
+          ],
+          [
+            -79.0487194,
+            -8.1428523
+          ],
+          [
+            -79.048112,
+            -8.1421548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-008",
+      "properties": {
+        "name": "Prolongación Avenida Bolivia",
+        "osmWayId": 93786435,
+        "chunkIndex": 0,
+        "highway": "tertiary",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0447929,
+            -8.150555
+          ],
+          [
+            -79.045173,
+            -8.1500705
+          ],
+          [
+            -79.0456878,
+            -8.1496093
+          ],
+          [
+            -79.0459348,
+            -8.1494038
+          ],
+          [
+            -79.0460016,
+            -8.1493448
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-009",
+      "properties": {
+        "name": "29 de Diciembre",
+        "osmWayId": 94621461,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0511378,
+            -8.1389226
+          ],
+          [
+            -79.0499856,
+            -8.1389936
+          ],
+          [
+            -79.0495526,
+            -8.1390134
+          ],
+          [
+            -79.0494144,
+            -8.1390133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-010",
+      "properties": {
+        "name": "Andrés Sánchez Iglesias",
+        "osmWayId": 564166720,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "1",
+        "lengthM": 181.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0418772,
+            -8.1399027
+          ],
+          [
+            -79.042457,
+            -8.1414299
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-011",
+      "properties": {
+        "name": "Augusto B. Leguia",
+        "osmWayId": 94622876,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0599913,
+            -8.1408153
+          ],
+          [
+            -79.0595758,
+            -8.1403099
+          ],
+          [
+            -79.0590998,
+            -8.1397483
+          ],
+          [
+            -79.0588993,
+            -8.1394923
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-012",
+      "properties": {
+        "name": "Avenida 2 de Mayo",
+        "osmWayId": 516212805,
+        "chunkIndex": 0,
+        "highway": "trunk",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0550623,
+            -8.1389604
+          ],
+          [
+            -79.0554686,
+            -8.1386947
+          ],
+          [
+            -79.0556051,
+            -8.1385996
+          ],
+          [
+            -79.0560767,
+            -8.138282
+          ],
+          [
+            -79.0560876,
+            -8.1382746
+          ],
+          [
+            -79.0562983,
+            -8.1381328
+          ],
+          [
+            -79.0564115,
+            -8.1380601
+          ],
+          [
+            -79.056495,
+            -8.1380077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-013",
+      "properties": {
+        "name": "Avenida César Vallejo",
+        "osmWayId": 94604965,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": null,
+        "lengthM": 43.7
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0406685,
+            -8.1422718
+          ],
+          [
+            -79.0405028,
+            -8.142629
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-014",
+      "properties": {
+        "name": "Avenida Colón",
+        "osmWayId": 93786442,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0599308,
+            -8.1418339
+          ],
+          [
+            -79.059865,
+            -8.1418882
+          ],
+          [
+            -79.0587692,
+            -8.1427686
+          ],
+          [
+            -79.0586009,
+            -8.1429225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-015",
+      "properties": {
+        "name": "Avenida las Palmas",
+        "osmWayId": 94605034,
+        "chunkIndex": 0,
+        "highway": "tertiary",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0309441,
+            -8.1448469
+          ],
+          [
+            -79.0304667,
+            -8.1443108
+          ],
+          [
+            -79.0300298,
+            -8.1438202
+          ],
+          [
+            -79.0298035,
+            -8.1435644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-016",
+      "properties": {
+        "name": "Avenida Libertad",
+        "osmWayId": 94640255,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 87.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0585535,
+            -8.1401616
+          ],
+          [
+            -79.0590384,
+            -8.140782
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-017",
+      "properties": {
+        "name": "Avenida Perricholi",
+        "osmWayId": 94629293,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0478576,
+            -8.1446283
+          ],
+          [
+            -79.0475257,
+            -8.1442493
+          ],
+          [
+            -79.0473306,
+            -8.1440311
+          ],
+          [
+            -79.0467345,
+            -8.1433308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-018",
+      "properties": {
+        "name": "Avenida Rosa Pelletier",
+        "osmWayId": 94618034,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0453377,
+            -8.129876
+          ],
+          [
+            -79.0455842,
+            -8.1301827
+          ],
+          [
+            -79.0459452,
+            -8.1306
+          ],
+          [
+            -79.0462179,
+            -8.1309163
+          ],
+          [
+            -79.0464466,
+            -8.1311852
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-019",
+      "properties": {
+        "name": "Avenida Vicente González de Orbegoso Moncada",
+        "osmWayId": 388723530,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0530693,
+            -8.136898
+          ],
+          [
+            -79.0530507,
+            -8.136951
+          ],
+          [
+            -79.0528206,
+            -8.137159
+          ],
+          [
+            -79.052542,
+            -8.1374172
+          ],
+          [
+            -79.0524831,
+            -8.1375139
+          ],
+          [
+            -79.0521421,
+            -8.1378111
+          ],
+          [
+            -79.0518297,
+            -8.1380705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-020",
+      "properties": {
+        "name": "Avenida Víctor Raúl Haya de la Torre",
+        "osmWayId": 94634358,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0486982,
+            -8.1438979
+          ],
+          [
+            -79.0482033,
+            -8.1432873
+          ],
+          [
+            -79.0475962,
+            -8.142583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-021",
+      "properties": {
+        "name": "Basilica",
+        "osmWayId": 94633802,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 67.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0401519,
+            -8.1297329
+          ],
+          [
+            -79.0395828,
+            -8.1299601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-022",
+      "properties": {
+        "name": "Calle 1",
+        "osmWayId": 94625201,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0478771,
+            -8.1469515
+          ],
+          [
+            -79.0468269,
+            -8.1477976
+          ],
+          [
+            -79.0465468,
+            -8.1480401
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-023",
+      "properties": {
+        "name": "Calle 10",
+        "osmWayId": 94639580,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0405028,
+            -8.142629
+          ],
+          [
+            -79.0407119,
+            -8.1433105
+          ],
+          [
+            -79.0408598,
+            -8.1437924
+          ],
+          [
+            -79.0409313,
+            -8.1440252
+          ],
+          [
+            -79.0410046,
+            -8.1442639
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-024",
+      "properties": {
+        "name": "Calle 11",
+        "osmWayId": 94624484,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0494638,
+            -8.1327471
+          ],
+          [
+            -79.0497694,
+            -8.1330915
+          ],
+          [
+            -79.0500476,
+            -8.133405
+          ],
+          [
+            -79.0505345,
+            -8.1339325
+          ],
+          [
+            -79.0506107,
+            -8.1340238
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-025",
+      "properties": {
+        "name": "Calle 16",
+        "osmWayId": 94604707,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 127.7
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0515197,
+            -8.1350643
+          ],
+          [
+            -79.0511561,
+            -8.1353763
+          ],
+          [
+            -79.0506427,
+            -8.1358167
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-026",
+      "properties": {
+        "name": "Calle 17",
+        "osmWayId": 94609292,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0516888,
+            -8.1335528
+          ],
+          [
+            -79.0520843,
+            -8.1339754
+          ],
+          [
+            -79.0523892,
+            -8.1343179
+          ],
+          [
+            -79.0526861,
+            -8.1346515
+          ],
+          [
+            -79.0528382,
+            -8.1348273
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-027",
+      "properties": {
+        "name": "Calle 18",
+        "osmWayId": 94623024,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0471409,
+            -8.1452408
+          ],
+          [
+            -79.0468215,
+            -8.1448669
+          ],
+          [
+            -79.046521,
+            -8.1445492
+          ],
+          [
+            -79.0460114,
+            -8.1439493
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-028",
+      "properties": {
+        "name": "Calle 19",
+        "osmWayId": 94612586,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 130.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0496921,
+            -8.1337228
+          ],
+          [
+            -79.0501577,
+            -8.1342381
+          ],
+          [
+            -79.0504784,
+            -8.1346025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-029",
+      "properties": {
+        "name": "Calle 2",
+        "osmWayId": 94605623,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 115
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.048256,
+            -8.1338087
+          ],
+          [
+            -79.0478028,
+            -8.1340229
+          ],
+          [
+            -79.0473146,
+            -8.1342563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-030",
+      "properties": {
+        "name": "Calle 24",
+        "osmWayId": 519740125,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": "2",
+        "lengthM": 98.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0518937,
+            -8.136663
+          ],
+          [
+            -79.0512084,
+            -8.1372325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-031",
+      "properties": {
+        "name": "Calle 28 de Julio",
+        "osmWayId": 94611053,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0482644,
+            -8.1355677
+          ],
+          [
+            -79.0479821,
+            -8.1366436
+          ],
+          [
+            -79.0478898,
+            -8.1371554
+          ],
+          [
+            -79.0478752,
+            -8.1372313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-032",
+      "properties": {
+        "name": "Calle 29",
+        "osmWayId": 94610616,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": "2",
+        "lengthM": 177.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0515186,
+            -8.1361851
+          ],
+          [
+            -79.0518937,
+            -8.136663
+          ],
+          [
+            -79.0522291,
+            -8.1370651
+          ],
+          [
+            -79.052542,
+            -8.1374172
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-033",
+      "properties": {
+        "name": "Calle 3",
+        "osmWayId": 94611248,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 127.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0346704,
+            -8.1360403
+          ],
+          [
+            -79.0346379,
+            -8.1360879
+          ],
+          [
+            -79.0338588,
+            -8.1368612
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-034",
+      "properties": {
+        "name": "Calle 36",
+        "osmWayId": 94610958,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 171.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0523925,
+            -8.1349042
+          ],
+          [
+            -79.0526515,
+            -8.1352096
+          ],
+          [
+            -79.0530968,
+            -8.1357344
+          ],
+          [
+            -79.0533954,
+            -8.1360845
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-035",
+      "properties": {
+        "name": "Calle 3B",
+        "osmWayId": 569434065,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 48
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.048672,
+            -8.1312684
+          ],
+          [
+            -79.0483849,
+            -8.1309439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-036",
+      "properties": {
+        "name": "Calle 4",
+        "osmWayId": 94626620,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 83.9
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0346127,
+            -8.1359566
+          ],
+          [
+            -79.0343416,
+            -8.1357264
+          ],
+          [
+            -79.0342745,
+            -8.1357059
+          ],
+          [
+            -79.0342114,
+            -8.1357262
+          ],
+          [
+            -79.0340087,
+            -8.1359011
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-037",
+      "properties": {
+        "name": "Calle 5",
+        "osmWayId": 94608593,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0539421,
+            -8.1404843
+          ],
+          [
+            -79.0543118,
+            -8.1401777
+          ],
+          [
+            -79.0543472,
+            -8.1401486
+          ],
+          [
+            -79.054908,
+            -8.1396721
+          ],
+          [
+            -79.0549594,
+            -8.1396298
+          ],
+          [
+            -79.0552668,
+            -8.1393891
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-038",
+      "properties": {
+        "name": "Calle 6",
+        "osmWayId": 94640395,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0504784,
+            -8.1346025
+          ],
+          [
+            -79.0499679,
+            -8.1350302
+          ],
+          [
+            -79.0495966,
+            -8.1353417
+          ],
+          [
+            -79.0492435,
+            -8.1356391
+          ],
+          [
+            -79.0491623,
+            -8.1357081
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-039",
+      "properties": {
+        "name": "Calle 7",
+        "osmWayId": 94620931,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": null,
+        "lanes": null,
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0469916,
+            -8.1514575
+          ],
+          [
+            -79.0465504,
+            -8.1517805
+          ],
+          [
+            -79.0460433,
+            -8.1521578
+          ],
+          [
+            -79.0456086,
+            -8.15248
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-040",
+      "properties": {
+        "name": "Calle 71",
+        "osmWayId": 94629039,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0467294,
+            -8.1299437
+          ],
+          [
+            -79.0475899,
+            -8.1309632
+          ],
+          [
+            -79.0478361,
+            -8.131255
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-041",
+      "properties": {
+        "name": "Calle 74",
+        "osmWayId": 94613505,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 181.1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0489047,
+            -8.1292017
+          ],
+          [
+            -79.0488098,
+            -8.129289
+          ],
+          [
+            -79.0487173,
+            -8.1293793
+          ],
+          [
+            -79.0484021,
+            -8.1296682
+          ],
+          [
+            -79.0480356,
+            -8.1299767
+          ],
+          [
+            -79.0476715,
+            -8.1302784
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-042",
+      "properties": {
+        "name": "Calle 8",
+        "osmWayId": 94635207,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": null,
+        "lengthM": 162.6
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.045756,
+            -8.151821
+          ],
+          [
+            -79.0454212,
+            -8.1513885
+          ],
+          [
+            -79.045239,
+            -8.151153
+          ],
+          [
+            -79.0448664,
+            -8.1506535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-043",
+      "properties": {
+        "name": "Calle 9",
+        "osmWayId": 306334187,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 107.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0425113,
+            -8.1466925
+          ],
+          [
+            -79.0420667,
+            -8.1458352
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-044",
+      "properties": {
+        "name": "Calle 9 de Octubre",
+        "osmWayId": 94634674,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": null,
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0419747,
+            -8.1420948
+          ],
+          [
+            -79.0426188,
+            -8.1418641
+          ],
+          [
+            -79.0433582,
+            -8.1415993
+          ],
+          [
+            -79.0435975,
+            -8.1415125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-045",
+      "properties": {
+        "name": "Calle A",
+        "osmWayId": 224754154,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": null,
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.046521,
+            -8.1445492
+          ],
+          [
+            -79.0457225,
+            -8.1452473
+          ],
+          [
+            -79.0454897,
+            -8.1454509
+          ],
+          [
+            -79.0454365,
+            -8.1454974
+          ],
+          [
+            -79.0454167,
+            -8.1455148
+          ],
+          [
+            -79.0452273,
+            -8.1456804
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-046",
+      "properties": {
+        "name": "Calle Abraham Valdelomar",
+        "osmWayId": 94619343,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.04964,
+            -8.1462142
+          ],
+          [
+            -79.048825,
+            -8.14522
+          ],
+          [
+            -79.0485965,
+            -8.144902
+          ],
+          [
+            -79.0485742,
+            -8.1448709
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-047",
+      "properties": {
+        "name": "Calle Andrés Avelino Cáceres",
+        "osmWayId": 94620826,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0465153,
+            -8.1379219
+          ],
+          [
+            -79.0459387,
+            -8.1372552
+          ],
+          [
+            -79.045472,
+            -8.1366794
+          ],
+          [
+            -79.045431,
+            -8.1365959
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-048",
+      "properties": {
+        "name": "Calle Antenor Orrego",
+        "osmWayId": 93875878,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.049936,
+            -8.1442338
+          ],
+          [
+            -79.0498664,
+            -8.1442991
+          ],
+          [
+            -79.0493192,
+            -8.1447877
+          ],
+          [
+            -79.048825,
+            -8.14522
+          ],
+          [
+            -79.0486464,
+            -8.1453694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-049",
+      "properties": {
+        "name": "Calle Antonio Mathey",
+        "osmWayId": 93786437,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "unpaved",
+        "lanes": "2",
+        "lengthM": 64.7
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0559229,
+            -8.1445467
+          ],
+          [
+            -79.0554744,
+            -8.1449234
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vlh-osm-050",
+      "properties": {
+        "name": "Calle Arequipa",
+        "osmWayId": 94632579,
+        "chunkIndex": 0,
+        "highway": "residential",
+        "surface": "asphalt",
+        "lanes": "2",
+        "lengthM": 190
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -79.0580818,
+            -8.1433327
+          ],
+          [
+            -79.0578067,
+            -8.1429873
+          ],
+          [
+            -79.0576055,
+            -8.1427371
+          ],
+          [
+            -79.0572379,
+            -8.142278
+          ],
+          [
+            -79.0570015,
+            -8.1420002
+          ]
+        ]
+      }
+    }
+  ]
+}

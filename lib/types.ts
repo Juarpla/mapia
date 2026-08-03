@@ -42,6 +42,8 @@ export interface RoadSegment {
   observationCount: number;
   lastObservedAt: string;
   source: string;
+  sourceGeometryId: string;
+  geometryQuality: "map_matched" | "surveyed" | "approximate";
   reason: string;
 }
 

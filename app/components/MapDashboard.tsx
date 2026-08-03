@@ -232,12 +232,14 @@ export function MapDashboard() {
           id: "road-segments-shadow",
           type: "line",
           source: "road-segments",
+          layout: { "line-cap": "round", "line-join": "round" },
           paint: { "line-color": "#ffffff", "line-width": 9, "line-opacity": 0.8 },
         });
         map.addLayer({
           id: "road-segments",
           type: "line",
           source: "road-segments",
+          layout: { "line-cap": "round", "line-join": "round" },
           paint: {
             "line-color": [
               "step",
@@ -408,7 +410,7 @@ export function MapDashboard() {
             <span>Capas de evidencia</span>
             <label><input type="checkbox" defaultChecked /> Inspecciones técnicas <small>37</small></label>
             <label><input type="checkbox" defaultChecked /> Riesgo de inundación <small>8</small></label>
-            <label><input type="checkbox" defaultChecked /> Red vial MTC / OSM <small>50</small></label>
+            <label><input type="checkbox" defaultChecked /> Geometría vial OSM <small>50</small></label>
           </div>
 
           <button className="reset-button" type="button" onClick={resetFilters}>Restablecer filtros</button>
@@ -476,7 +478,7 @@ function SegmentCard({ segment, onClose, onReport }: { segment: RoadSegment; onC
       <button className="card-close" type="button" onClick={onClose} aria-label="Cerrar detalle">×</button>
       <div className="segment-card-top">
         <div className="score-ring" style={{ "--score-color": colorForPriority(segment.priorityScore) } as React.CSSProperties}><strong>{segment.priorityScore}</strong><span>/ 100</span></div>
-        <div><span className={`priority-badge priority-${band}`}>{band === "critica" ? "Prioridad crítica" : `Prioridad ${band}`}</span><h2>{segment.roadName}</h2><p>{segment.code} · {segment.lengthM} m · {segment.surface}</p></div>
+        <div><span className={`priority-badge priority-${band}`}>{band === "critica" ? "Prioridad crítica" : `Prioridad ${band}`}</span><h2>{segment.roadName}</h2><p>{segment.code} · {segment.lengthM} m · {segment.surface} · eje OSM</p></div>
       </div>
       <div className="card-recommendation"><span aria-hidden="true">↗</span><div><small>Intervención sugerida</small><strong>{interventionLabels[segment.intervention]}</strong></div></div>
       <p className="reason-copy">{segment.reason}</p>

@@ -1,5 +1,6 @@
 import { calculatePriority, confidenceBand, recommendIntervention } from "./scoring";
 import type { AdministrativeArea, RoadSegment, Surface } from "./types";
+import osmRoadNetwork from "./victor-larco-road-segments.json";
 
 export const administrativeAreas: AdministrativeArea[] = [
   { ubigeo: "01", name: "Amazonas", level: "department", parentUbigeo: null },
@@ -41,31 +42,45 @@ export const administrativeAreas: AdministrativeArea[] = [
   { ubigeo: "130111", name: "Víctor Larco Herrera", level: "district", parentUbigeo: "1301" },
 ];
 
-const roads = [
-  "Av. Larco",
-  "Av. Huamán",
-  "Av. Fátima",
-  "Av. El Golf",
-  "Av. Bolivia",
-  "Av. Prolongación César Vallejo",
-  "Calle Los Ángeles",
-  "Av. Costa Verde",
-  "Jr. Independencia",
-  "Av. Víctor Larco",
-];
+interface OsmRoadFeature {
+  id: string;
+  properties: {
+    name: string;
+    osmWayId: number;
+    highway: string;
+    surface: string | null;
+    lengthM: number;
+  };
+  geometry: { type: "LineString"; coordinates: [number, number][] };
+}
 
-const surfaces: Surface[] = ["asfalto", "concreto", "asfalto", "afirmado"];
+interface OsmRoadFeatureCollection {
+  metadata: {
+    source: string;
+    license: string;
+    sourceUrl: string;
+    osmDataTimestamp: string;
+    ubigeo: string;
+  };
+  features: OsmRoadFeature[];
+}
 
-export const demoSegments: RoadSegment[] = Array.from({ length: 50 }, (_, index) => {
-  const row = Math.floor(index / 10);
-  const column = index % 10;
-  const startLng = -79.049 + column * 0.00315;
-  const startLat = -8.151 + row * 0.0065 + (column % 2) * 0.00045;
-  const horizontal = index % 3 !== 0;
+const roadNetwork = osmRoadNetwork as unknown as OsmRoadFeatureCollection;
+export const demoRoadNetworkMetadata = roadNetwork.metadata;
+
+function normalizeSurface(value: string | null, highway: string): Surface {
+  if (["concrete", "concrete:plates", "paving_stones", "sett"].includes(value ?? "")) return "concreto";
+  if (["gravel", "compacted", "fine_gravel"].includes(value ?? "")) return "afirmado";
+  if (["dirt", "earth", "ground", "sand", "unpaved"].includes(value ?? "")) return "tierra";
+  if (value === "asphalt" || ["trunk", "primary", "secondary", "tertiary"].includes(highway)) return "asfalto";
+  return "asfalto";
+}
+
+export const demoSegments: RoadSegment[] = roadNetwork.features.map((feature, index) => {
   const condition = 28 + ((index * 17) % 68);
   const connectivity = 35 + ((index * 23) % 63);
   const hazard = 18 + ((index * 31) % 80);
-  const kind = index < 44 ? "urbano" : "rural";
+  const kind = "urbano" as const;
   const priorityScore = calculatePriority({
     kind,
     condition,
@@ -83,23 +98,15 @@ export const demoSegments: RoadSegment[] = Array.from({ length: 50 }, (_, index)
 
   return {
     id: `seg-${String(index + 1).padStart(3, "0")}`,
-    roadId: `road-${(index % roads.length) + 1}`,
+    roadId: `osm-way-${feature.properties.osmWayId}`,
     code: `VLH-${String(index + 1).padStart(3, "0")}`,
-    roadName: roads[index % roads.length],
+    roadName: feature.properties.name,
     ubigeo: "130111",
     district: "Víctor Larco Herrera",
     kind,
-    surface: surfaces[index % surfaces.length],
-    lengthM: horizontal ? 175 + (index % 4) * 8 : 192 + (index % 3) * 11,
-    coordinates: horizontal
-      ? [
-          [startLng, startLat],
-          [startLng + 0.00245, startLat + 0.00028],
-        ]
-      : [
-          [startLng, startLat],
-          [startLng + 0.0002, startLat + 0.0021],
-        ],
+    surface: normalizeSurface(feature.properties.surface, feature.properties.highway),
+    lengthM: Math.round(feature.properties.lengthM),
+    coordinates: feature.geometry.coordinates,
     conditionScore: condition,
     connectivityScore: connectivity,
     hazardScore: hazard,
@@ -114,7 +121,9 @@ export const demoSegments: RoadSegment[] = Array.from({ length: 50 }, (_, index)
         : "Municipalidad Distrital de Víctor Larco Herrera",
     observationCount: 1 + (index % 7),
     lastObservedAt: `2026-0${(index % 7) + 1}-${String((index % 25) + 1).padStart(2, "0")}`,
-    source: index % 3 === 0 ? "Inspección MapIA + RoadLab" : index % 3 === 1 ? "MTC + OSM" : "Inspección MapIA",
+    source: "OpenStreetMap (ODbL) · condición demo",
+    sourceGeometryId: `osm-way-${feature.properties.osmWayId}`,
+    geometryQuality: "map_matched",
     reason:
       condition >= 70
         ? "Deterioro extendido y pérdida de capacidad funcional"

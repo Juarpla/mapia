@@ -8,7 +8,7 @@
 
 ## 🧭 Qué incluye este repositorio
 
-- 🌐 Mapa público MapLibre responsive con 50 tramos piloto, filtros, prioridad, confianza e intervención sugerida.
+- 🌐 Mapa público MapLibre responsive con 50 tramos piloto ajustados a ejes reales de OpenStreetMap, filtros, prioridad, confianza e intervención sugerida.
 - 📱 PWA instalable y captura de foto/comentario con cola offline en IndexedDB.
 - 🔐 Panel técnico protegido, importación CSV RoadLab, bandeja de revisión y registro de transiciones.
 - 🧮 Motor de prioridad urbana/rural y confianza independiente, cubierto por pruebas unitarias.
@@ -97,7 +97,7 @@ pnpm db:migrate:local
 pnpm dev
 ```
 
-Abre `http://localhost:3000`. El piloto funciona con datos deterministas aun sin credenciales externas.
+Abre `http://localhost:3000`. El piloto funciona sin credenciales externas. Sus **geometrías son ejes viales reales derivados de OpenStreetMap**; sus puntajes de condición, riesgo y conectividad continúan siendo demostrativos hasta completar la inspección de campo.
 
 ### Variables de entorno
 
@@ -147,7 +147,7 @@ Los casos unitarios cubren pesos urbanos/rurales, valores parciales, datos contr
 |---|---|---|
 | [IDE INEI](https://ide.inei.gob.pe/) | Límites, UBIGEO, WFS/WMS y GPKG | Conservar metadatos; límites censales pueden ser referenciales |
 | [Manuales de carreteras MTC](https://portal.mtc.gob.pe/transportes/caminos/normas_carreteras/manuales.html) | Inventario, conservación, drenaje y seguridad | Aplicar versión vigente y criterio profesional |
-| [OpenStreetMap](https://www.openstreetmap.org/copyright) | Topología complementaria | Atribución ODbL; no sustituye inventario oficial |
+| [OpenStreetMap](https://www.openstreetmap.org/copyright) | Geometría map-matched del piloto y topología complementaria | Atribución ODbL; no sustituye inventario oficial |
 | [CENEPRED](https://sigrid.cenepred.gob.pe/sigridv3/) / [INGEMMET](https://geocatmin.ingemmet.gob.pe/geocatmin/) | Peligros y susceptibilidad | Importación autorizada o descarga manual documentada |
 | [INDECI](https://portal.indeci.gob.pe/) / [SENAMHI](https://www.senamhi.gob.pe/) | Emergencias e hidrometeorología | Verificar fecha, escala y licencia por conjunto |
 | [Copernicus Data Space](https://dataspace.copernicus.eu/) | Sentinel-1/2 | Nubes, resolución y recurrencia limitan la interpretación |

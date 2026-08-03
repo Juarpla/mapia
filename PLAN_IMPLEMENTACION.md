@@ -174,7 +174,7 @@ Validación piloto: comparar escenas antes/después del 29 de marzo de 2025 en T
 | Evento satelital marzo 2025 | Fixture y prueba Python | Matriz de aciertos/falsos positivos |
 | Migración desde cero y build | SQL/CI + `pnpm build` | Revisión de seguridad previa a producción |
 
-La versión actual incluye 50 tramos sintéticos reproducibles para probar UX y lógica. **No se considera cumplida la inspección de campo** hasta levantar 50 segmentos reales y repetir 20 con el protocolo acordado.
+La versión actual incluye 50 geometrías viales reales derivadas de OpenStreetMap y recortadas a aproximadamente 190 m. Los puntajes asociados siguen siendo sintéticos y reproducibles para probar UX y lógica. **No se considera cumplida la inspección de campo** hasta levantar 50 segmentos reales y repetir 20 con el protocolo acordado.
 
 ## 📚 Referencias oficiales
 

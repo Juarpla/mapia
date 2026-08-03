@@ -82,6 +82,28 @@ function haversineM(a: [number, number], b: [number, number]) {
   return earthRadiusM * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value));
 }
 
+function pointToSegmentDistanceM(
+  point: [number, number],
+  start: [number, number],
+  end: [number, number],
+) {
+  const latitudeReference = ((point[1] + start[1] + end[1]) / 3) * (Math.PI / 180);
+  const longitudeScale = 111_320 * Math.cos(latitudeReference);
+  const latitudeScale = 110_540;
+  const px = point[0] * longitudeScale;
+  const py = point[1] * latitudeScale;
+  const ax = start[0] * longitudeScale;
+  const ay = start[1] * latitudeScale;
+  const bx = end[0] * longitudeScale;
+  const by = end[1] * latitudeScale;
+  const dx = bx - ax;
+  const dy = by - ay;
+  const denominator = dx * dx + dy * dy;
+  if (denominator === 0) return haversineM(point, start);
+  const ratio = Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / denominator));
+  return Math.hypot(px - (ax + ratio * dx), py - (ay + ratio * dy));
+}
+
 export function matchRoadLabRows(
   rows: RoadLabRow[],
   segments: RoadSegment[],
@@ -93,11 +115,10 @@ export function matchRoadLabRows(
       for (let index = 0; index < segment.coordinates.length - 1; index += 1) {
         const start = segment.coordinates[index];
         const end = segment.coordinates[index + 1];
-        const midpoint: [number, number] = [(start[0] + end[0]) / 2, (start[1] + end[1]) / 2];
-        const distanceM = Math.min(
-          haversineM([row.longitude, row.latitude], start),
-          haversineM([row.longitude, row.latitude], midpoint),
-          haversineM([row.longitude, row.latitude], end),
+        const distanceM = pointToSegmentDistanceM(
+          [row.longitude, row.latitude],
+          start,
+          end,
         );
         if (!best || distanceM < best.distanceM) best = { id: segment.id, distanceM };
       }

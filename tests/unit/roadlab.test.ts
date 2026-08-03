@@ -3,7 +3,7 @@ import { demoSegments } from "@/lib/demo-data";
 import { matchRoadLabRows, parseRoadLabCsv } from "@/lib/roadlab";
 
 const csv = `external_id,latitude,longitude,condition,observed_at
-RL-001,-8.14995,-79.04890,82,2026-07-20
+RL-001,-8.13535,-79.04375,82,2026-07-20
 RL-002,-8.00000,-79.00000,55,2026-07-21`;
 
 describe("importación RoadLab", () => {
